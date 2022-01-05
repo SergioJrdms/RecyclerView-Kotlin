@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="200dp"
+                                                   android:background="@android:color/transparent"
+                                                   android:backgroundTint="@android:color/transparent"
+                                                   android:backgroundTintMode="multiply" android:visibility="visible">
+    <androidx.cardview.widget.CardView
+            android:layout_width="359dp"
+            android:layout_height="57dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:cardCornerRadius="12dp" app:cardUseCompatPadding="false"
+            app:cardPreventCornerOverlap="true" android:foregroundTint="#00F80202" app:cardElevation="15dp"
+            android:background="#00FFFFFF" android:backgroundTint="#FFFFFF"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="20dp" android:layout_marginEnd="22dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="30dp"
+    >
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+        >
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="324dp"
+                    android:layout_height="wrap_content" android:id="@+id/nome" android:textStyle="italic"
+                    android:textAlignment="viewStart" android:fontFamily="cursive" android:textSize="24sp"
+                    android:paddingStart="10dp"/>
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="324dp"
+                    android:layout_height="wrap_content" android:id="@+id/plataforma" android:textSize="10sp"
+                    android:fontFamily="sans-serif-black" android:paddingStart="10dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
